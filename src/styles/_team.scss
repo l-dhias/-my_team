@@ -1,0 +1,44 @@
+@use'variaveis';
+
+.team {
+    padding: 5.6vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    img {
+        width: 506px;
+        height: 900px;
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    &__text_container {
+        padding: 0 2vw;
+
+        h2, .lu {
+            margin-bottom: 24px;
+            color: variaveis.$corP1;
+            
+        }
+
+        h2, .las {
+            margin-bottom: 24px;
+            color: variaveis.$corP2;
+            
+        }
+
+        h2, .gil {
+            margin-bottom: 24px;
+            color: variaveis.$corP3;
+            
+        }
+
+        h2, .ma {
+            margin-bottom: 24px;
+            color: variaveis.$corP4;
+            
+        }
+    }
+}
+
