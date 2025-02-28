@@ -1,0 +1,39 @@
+@use'variaveis';
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: variaveis.$corDeFundo;
+    
+    &__container{
+        padding: 8px 26px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+        &__logo {
+            max-width: 80px;
+            width: 100%;
+            margin: 5px;
+        }
+
+        &__links {
+            display: flex;
+
+            &__item {
+                margin: 5px;
+
+                .button {
+                    display: block;
+                    width: 100%;
+                    font-size: 18px;
+                    color: variaveis.$corTextoPrincipal;
+                    text-transform: uppercase;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    padding: 8px 14px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+}

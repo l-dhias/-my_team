@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1 >
+                <img class="header__logo" src="./dist/image/logo/logo.webp" alt="">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button" href="#time">Time</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button" href="#trailer">Trailer</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
             <h2 class="hero__content__title title--big ">Unidos NR</h2>
@@ -53,7 +68,7 @@
             </li>
         </ul>
     </section>
-    <section class="team">
+    <section id="time" class="team">
         <img src="./dist/image/time/luizinho.webp" alt="">
         <div class="team__text_container">
             <h2 class="title lu">
@@ -91,7 +106,7 @@
             </p>
         </div>
     </section>
-    <section class="trailer">
+    <section id="trailer" class="trailer">
         <div class="trailer__fail">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/_zRPGjJiPOU?si=1srPRx1q6xs-mUwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
@@ -99,6 +114,6 @@
         <h2 class="title--small"> TODOS OS DIREITOS RESERVADOS </h2>
         <p class="title--small">Unidos NR desde 2022 <br> causando discordia </p>
     </footer>
-    <script src="./src/main.js"></script>
+    <script src="./src/scripts/main.js"></script>
 </body>
 </html>
