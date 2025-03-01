@@ -15,8 +15,8 @@
     }
 
     img {
-        width: 506px;
-        height: 900px;
+        width: 450px;
+        height: 500px;
         max-width: 100%;
         margin-bottom: 24px;
     }
@@ -24,28 +24,8 @@
     &__text_container {
         padding: 0 2vw;
 
-        h2, .lu {
+        h2 {
             margin-bottom: 24px;
-            color: variaveis.$corP1;
-            
-        }
-
-        h2, .las {
-            margin-bottom: 24px;
-            color: variaveis.$corP2;
-            
-        }
-
-        h2, .gil {
-            margin-bottom: 24px;
-            color: variaveis.$corP3;
-            
-        }
-
-        h2, .ma {
-            margin-bottom: 24px;
-            color: variaveis.$corP4;
-            
         }
     }
 }
